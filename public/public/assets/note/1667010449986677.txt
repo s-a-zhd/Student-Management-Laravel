@@ -1,0 +1,43 @@
+Input : physical mesaurments
+Output : Age
+
+
+Confusion matrix :
+
+it is a performance measurement for machine learning classification problem where output can be two or more classes. It is a table with 4 different combinations of predicted and actual values.
+
+
+
+
+True Positive: we predicted something positive and it’s true.
+
+True Positive: we predicted something negative and it’s true.
+
+False Positive: we predicted positive and it’s false
+
+False Negative: You predicted negative and it’s false.
+
+
+
+ROC Graph : A Receiver Operator Characteristic (ROC) curve is a graphical plot used to show the diagnostic ability of binary classifiers
+
+ROC
+Graph stands for ‘Receiver Operating Characteristics Graph
+
+The points (0, 1), (1, 0), (1, 1) and (0, 0)
+
+(0, 1) : The Perfect Classifier ... TPR= P/P = 1 
+FPR = 0/N =0
+
+(1,0): The Worst Possible Classifier : TP Rate (Recall) = 0/P = 0 and FP Rate = N/N = 1
+
+(1,1)The Ultra-liberal Classifier : This classifier always predicts the positive class. The True Positive rate is
+1 but the False Positive rate is also 1. The False Negative and True Negative
+rates are both zero
+
+(0,0):The Ultra-conservative Classifier
+This classifier always predicts the negative class. The False Positive rate is
+zero, but so is the True Positive rate
+
+
+
